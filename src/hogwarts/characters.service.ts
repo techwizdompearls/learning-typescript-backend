@@ -3,7 +3,7 @@
  */
 
 import { Character, BaseCharacter, Gender } from "./character.interface";
-import { Characters } from "./items.interface";
+import { Characters } from "./characters.interface";
 
 /**
  * In-Memory Store
@@ -15,21 +15,21 @@ let items: Characters = {
         name: "Harry Potter",
         description: "The Spectacled Hero",
         gender: Gender.Male,
-        image: "https://cdn.auth0.com/blog/whatabyte/burger-sm.png"
+        image: "https://pixabay.com/vectors/harry-potter-fan-art-the-wizard-owl-4073867/"
     },
     2: {
         id: 2,
         name: "Ronald Weasley",
         gender: Gender.Male,
         description: "Hero's Best Friend",
-        image: "https://cdn.auth0.com/blog/whatabyte/pizza-sm.png"
+        image: "https://pixabay.com/photos/ron-ronald-bilius-weasley-potter-4132263/"
       },
       3: {
         id: 3,
         name: "Hermoine Grainger",
         gender: Gender.Female,
         description: "Very clever girlfriend of Ronald",
-        image: "https://cdn.auth0.com/blog/whatabyte/tea-sm.png"
+        image: "https://pixabay.com/illustrations/hermione-granger-harry-potter-4346324/"
       }
 };
 
